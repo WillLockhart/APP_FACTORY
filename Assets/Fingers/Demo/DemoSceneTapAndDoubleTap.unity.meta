@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d39b86e0b21194d468dd74590a0d5dc7
+timeCreated: 1509724934
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneTapAndDoubleTap.unity
+  uploadId: 828314

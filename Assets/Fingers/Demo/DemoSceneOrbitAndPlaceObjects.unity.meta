@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef698bfaf6d5bc84a8605cc7f03b57db
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneOrbitAndPlaceObjects.unity
+  uploadId: 828314

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1362afb0ae00f0243b94ac9ca88430ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/Scripts/DemoScriptVirtualTouches.cs
+  uploadId: 828314

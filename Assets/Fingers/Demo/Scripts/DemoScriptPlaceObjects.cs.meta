@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8a025cdf2f9e40a4cbdb18617f1c8da9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/Scripts/DemoScriptPlaceObjects.cs
+  uploadId: 828314

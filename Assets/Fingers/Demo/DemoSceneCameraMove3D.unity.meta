@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c90e5b78bde18f042abce63c645a32d6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneCameraMove3D.unity
+  uploadId: 828314

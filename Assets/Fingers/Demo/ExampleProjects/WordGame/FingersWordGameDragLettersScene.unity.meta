@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 476b33cdde4d22446b72d8082ca0c626
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/ExampleProjects/WordGame/FingersWordGameDragLettersScene.unity
+  uploadId: 828314

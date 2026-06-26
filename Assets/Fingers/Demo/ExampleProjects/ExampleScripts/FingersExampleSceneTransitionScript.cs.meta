@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 66d399248040da64994f70815319dfff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/ExampleProjects/ExampleScripts/FingersExampleSceneTransitionScript.cs
+  uploadId: 828314

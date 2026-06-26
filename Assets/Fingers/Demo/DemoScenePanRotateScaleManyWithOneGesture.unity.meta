@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 45d69d2a1e3a1454bb4fe873ef3fcf6f
+timeCreated: 1512615252
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoScenePanRotateScaleManyWithOneGesture.unity
+  uploadId: 828314

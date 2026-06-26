@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8352079aae5d714bba735a7fee36680
+timeCreated: 1501697213
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneDPad.unity
+  uploadId: 828314

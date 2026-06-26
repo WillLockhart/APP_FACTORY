@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: dc6d9082ed98f9b4095c1e0ad14b62fb
+timeCreated: 1482248549
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/Scripts/DemoScriptPan.cs
+  uploadId: 828314

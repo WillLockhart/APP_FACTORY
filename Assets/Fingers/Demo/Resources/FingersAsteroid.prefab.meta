@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d0fb7a4bac33846aaab3df2c09c886b0
+timeCreated: 1435963935
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/Resources/FingersAsteroid.prefab
+  uploadId: 828314

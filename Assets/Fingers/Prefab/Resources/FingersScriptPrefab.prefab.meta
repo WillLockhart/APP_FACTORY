@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d0bcfe5ecdb4e04a8dfabfc0bd1c32d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Prefab/Resources/FingersScriptPrefab.prefab
+  uploadId: 828314

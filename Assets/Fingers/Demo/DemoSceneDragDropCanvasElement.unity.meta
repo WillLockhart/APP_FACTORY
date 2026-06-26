@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61230073a3a079c42bace6468e96cf9b
+timeCreated: 1490912946
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneDragDropCanvasElement.unity
+  uploadId: 828314

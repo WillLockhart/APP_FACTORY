@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8cd981ae26e71b8418a6fa32952357ad
+timeCreated: 1490908938
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoScenePanScaleRotate2D.unity
+  uploadId: 828314

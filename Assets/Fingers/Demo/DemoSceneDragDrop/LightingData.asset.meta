@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 671921802c6f4b34bae7438e84e045ea
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneDragDrop/LightingData.asset
+  uploadId: 828314

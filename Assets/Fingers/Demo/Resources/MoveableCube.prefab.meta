@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7319186eb1a946e42aac6281beec2198
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/Resources/MoveableCube.prefab
+  uploadId: 828314

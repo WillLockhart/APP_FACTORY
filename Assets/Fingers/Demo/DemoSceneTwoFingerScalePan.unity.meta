@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63e9c8704cd954d489fe6da090e71c4a
+timeCreated: 1490908938
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneTwoFingerScalePan.unity
+  uploadId: 828314

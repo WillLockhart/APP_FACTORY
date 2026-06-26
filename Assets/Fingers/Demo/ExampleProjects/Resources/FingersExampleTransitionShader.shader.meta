@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20f967d0c101beb4db16860cded8e1c0
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/ExampleProjects/Resources/FingersExampleTransitionShader.shader
+  uploadId: 828314

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b65db7df19949ff4f9f983370c988e21
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoScenePanAR.unity
+  uploadId: 828314

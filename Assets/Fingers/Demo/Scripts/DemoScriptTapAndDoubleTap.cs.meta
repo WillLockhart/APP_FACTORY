@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5cddb05144ae9ce4798b26cb3fac44da
+timeCreated: 1509724950
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/Scripts/DemoScriptTapAndDoubleTap.cs
+  uploadId: 828314

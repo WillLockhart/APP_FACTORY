@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 077d963d70dd82d48911e6594f34b1f0
+timeCreated: 1503784627
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoScene3DOrbit.unity
+  uploadId: 828314

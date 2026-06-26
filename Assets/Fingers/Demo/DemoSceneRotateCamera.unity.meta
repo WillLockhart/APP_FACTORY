@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 287d4e2b50b1d4f4e95b133e823d2e4c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneRotateCamera.unity
+  uploadId: 828314

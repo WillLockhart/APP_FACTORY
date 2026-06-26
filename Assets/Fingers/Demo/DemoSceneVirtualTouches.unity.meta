@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3db6b49bca18ebd4b820d871d7f2d077
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneVirtualTouches.unity
+  uploadId: 828314

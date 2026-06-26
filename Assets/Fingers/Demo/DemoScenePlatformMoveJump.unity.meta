@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 210f1b9ac999f86499e802eb4228a5f5
+timeCreated: 1522165464
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoScenePlatformMoveJump.unity
+  uploadId: 828314

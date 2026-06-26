@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 34598f2799046a349bd3414246a5e89b
+timeCreated: 1509218345
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneMultiFingerTap.unity
+  uploadId: 828314

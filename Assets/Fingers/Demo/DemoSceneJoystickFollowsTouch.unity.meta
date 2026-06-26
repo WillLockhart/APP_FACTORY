@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e980d7f831f35da4e93061b2a1f5b20e
+timeCreated: 1497458418
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/DemoSceneJoystickFollowsTouch.unity
+  uploadId: 828314

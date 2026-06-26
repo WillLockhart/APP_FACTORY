@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a3db12e36f984224d9377251fc01e4e5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 41076
+  packageName: Fingers - Touch Gestures for Unity
+  packageVersion: 3.0.15
+  assetPath: Assets/Fingers/Demo/ExampleProjects/FingersExampleOptionsMenu.unity
+  uploadId: 828314

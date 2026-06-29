@@ -5,6 +5,7 @@ public class TouchDrag : MonoBehaviour
 {
     [Header("Drag Threshold")]
     [SerializeField] private float dragThreshold = 0.1f;
+    [SerializeField] private float releaseThreshold = 0.5f;
 
     [Header("Drag Constraints")]
     [SerializeField] private Vector2 dragAxis = Vector2.right;
@@ -45,7 +46,7 @@ public class TouchDrag : MonoBehaviour
 
             if (touch.press.wasPressedThisFrame) TryStartDrag(screenPos);
             else if (touch.press.isPressed && (pendingDrag || dragging)) DoDrag(screenPos);
-            else if (touch.press.wasReleasedThisFrame) EndDrag();
+            else if (touch.press.wasReleasedThisFrame) { EndDrag(); OnRelease(); }
         }
         else if (Mouse.current != null)
         {
@@ -53,7 +54,7 @@ public class TouchDrag : MonoBehaviour
 
             if (Mouse.current.leftButton.wasPressedThisFrame) TryStartDrag(screenPos);
             else if (Mouse.current.leftButton.isPressed && (pendingDrag || dragging)) DoDrag(screenPos);
-            else if (Mouse.current.leftButton.wasReleasedThisFrame) EndDrag();
+            else if (Mouse.current.leftButton.wasReleasedThisFrame) { EndDrag(); OnRelease(); }
         }
 
         if (bouncingBack)
@@ -158,6 +159,12 @@ public class TouchDrag : MonoBehaviour
         Vector3 screenPoint = screenPos;
         screenPoint.z = cam.WorldToScreenPoint(transform.position).z;
         return cam.ScreenToWorldPoint(screenPoint);
+    }
+
+    private void OnRelease()
+    {
+        float moveDist = Vector3.Distance(startLocalPosition, transform.localPosition);
+        if (moveDist > releaseThreshold) Debug.Log("dragged");
     }
 
     //In case object gets disabled

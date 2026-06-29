@@ -36,7 +36,7 @@ public class Intervals
             lastInterval = Mathf.FloorToInt(interval);
             trigger.Invoke();
         }
-     }
+    }
 }
  
 

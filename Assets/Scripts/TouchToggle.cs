@@ -5,8 +5,7 @@ public class TouchToggle : MonoBehaviour
 {
     private Camera cam;
 
-    //private LevelManager gameManager;
-    public LevelManager.inputNames inputType;
+    public LevelManager levelManager;
 
     [SerializeField] private GameObject ToggleObject;
 
@@ -43,8 +42,10 @@ public class TouchToggle : MonoBehaviour
         {
             Debug.Log("Hit");
             /*
-             * if (gameManager.inputAllowed) {
-             *      gameManager.playerInputList.Add(inputType);
+             * if (levelManager.playerInputAllowed) {
+             *      levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);
+             *      GetComponent<InputObject>().Animate();
+             *      GetComponent<InputObject>().PlaySound();
              * }
              */
         }

@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b0342a2c30a747aa115b8e4aebe98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchToggle
-  inputType: 0
+  levelManager: {fileID: 0}
   ToggleObject: {fileID: 264452652}
 --- !u!58 &264452656
 CircleCollider2D:
@@ -908,15 +908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a57160c6d5f124499115a5189c95ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
-  testing: {fileID: 2128996353}
   playerInputAllowed: 0
-  inputList: 0000000000000000
-  inputObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  inputObjects: []
 --- !u!4 &1178991756
 Transform:
   m_ObjectHideFlags: 0

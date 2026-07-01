@@ -150,7 +150,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 7747fb5c67abdbb48aebc122ebc7e761, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.411
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -265,10 +265,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - steps: 1
-    trigger:
-      m_PersistentCalls:
-        m_Calls: []
   - steps: 2
     trigger:
       m_PersistentCalls:
@@ -914,7 +910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   testing: {fileID: 2128996353}
   playerInputAllowed: 0
-  inputList: 
+  inputList: 0000000000000000
   inputObjects:
   - {fileID: 0}
   - {fileID: 0}

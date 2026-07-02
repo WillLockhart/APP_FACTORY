@@ -60,6 +60,7 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         playerInputList = new List<inputNames>();
+        generatedList = new List<inputNames>();
         Beat = 0;
         Bar = 0;
     }

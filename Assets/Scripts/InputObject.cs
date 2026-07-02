@@ -8,11 +8,11 @@ public class InputObject : MonoBehaviour
 
     public void Animate()
     {
-        circleAnim.SetTrigger("BeatPulse");
+        if (circleAnim != null) circleAnim.SetTrigger("BeatPulse");
     }
 
     public void PlaySound()
     {
-        audioSource.Play();
+        if (audioSource != null) audioSource.Play();
     }
 }

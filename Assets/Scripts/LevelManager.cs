@@ -7,6 +7,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     private int beat;
+
     public int Beat 
     { 
         get { return beat; }
@@ -25,7 +26,13 @@ public class LevelManager : MonoBehaviour
     {
         LEFT_EYE,
         RIGHT_EYE,
-        MOUTH
+        LEFT_CHEEK,
+        RIGHT_CHEEK,
+        LEFT_EAR,
+        RIGHT_EAR,
+        NOSE,
+        HAT
+
     }
 
     private List<inputNames> generatedList;
@@ -39,14 +46,14 @@ public class LevelManager : MonoBehaviour
     //list of possible patterns. -1 represents a Beat that nothing needs doing on, 0-7 represent the one of the list that needs doing; the position of each number, 0-7, is the Beat the number is for
     private int[,] patterns = 
         {
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 },
-            { 0, -1, 1, -1, -1, -1, 2, -1 }
+            { 0, -1, -1, -1, -1, -1, -1, -1 },
+            { 0, -1, -1, -1, 1, -1, -1, -1 },
+            { 0, -1, 1, -1, 2, -1, -1, -1 },
+            { 0, -1, 1, -1, 2, -1, 3, -1 },
+            { 0, 1, 2, -1, 3, 4, -1, -1 },
+            { 0, 1, 2, -1, 3, 4, 5, -1 },
+            { 0, 1, 2, 3, 4, 5, 6, -1 },
+            { 0, 1, 2, 3, 4, 5, 6, 7 }
         }; 
     
 
@@ -57,7 +64,6 @@ public class LevelManager : MonoBehaviour
         Bar = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
         //playerInputAllowed = Bar == 3;
@@ -95,15 +101,15 @@ public class LevelManager : MonoBehaviour
         {
             //generating new list in a Simon Says BAR
             int s = Random.Range(1, 8); // choosing a size at random
-            reloadList(s); //generation
+            ReloadList(s); //generation
             s--; //decrementing by 1, to use for indexing into patterns array
-            return;
+            
             if (patterns[s, Beat] != -1) //don't do the following if there wouldnt be anything to do
             {
                 //do something with generatedList[patterns[s, Beat]]
                 foreach (GameObject g in inputObjects) //check each possible interactable gameobject
                 {
-                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[s, Beat]]) //for thw gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
+                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[s, Beat]]) //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
                     {
                         //animation
                         g.GetComponent<InputObject>().Animate();
@@ -116,11 +122,11 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    void reloadList(int size)
+    void ReloadList(int s)
     {
         generatedList.Clear();
 
-        for (int i = 0; i < size; i++)
+        for (int i = 0; i < s; i++)
         {
             generatedList.Add((inputNames)Random.Range(0, 7));
         }

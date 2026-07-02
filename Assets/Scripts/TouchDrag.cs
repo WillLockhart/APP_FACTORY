@@ -164,7 +164,11 @@ public class TouchDrag : MonoBehaviour
     private void OnRelease()
     {
         float moveDist = Vector3.Distance(startLocalPosition, transform.localPosition);
-        if (moveDist > releaseThreshold) Debug.Log("dragged");
+        if (moveDist > releaseThreshold)
+        {
+            Debug.Log("dragged");
+            GetComponent<InputObject>().PlaySound();
+        }
         //if (levelManager.playerInputAllowed)
         //{
         //    levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);

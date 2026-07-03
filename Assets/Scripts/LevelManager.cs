@@ -113,6 +113,7 @@ public class LevelManager : MonoBehaviour
                     if (g.GetComponent<InputObject>().inputType == generatedList[patterns[s, Beat]]) //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
                     {
                         //animation
+                        Debug.Log(g.GetComponent<InputObject>().inputType);
                         g.GetComponent<InputObject>().Animate();
                         g.GetComponent<InputObject>().PlaySound();
                         break;
@@ -126,6 +127,7 @@ public class LevelManager : MonoBehaviour
     void ReloadList(int s)
     {
         generatedList.Clear();
+        Debug.Log(s);
 
         for (int i = 0; i < s; i++)
         {

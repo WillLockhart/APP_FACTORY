@@ -41,14 +41,15 @@ public class TouchToggle : MonoBehaviour
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
             Debug.Log("Hit");
-            GetComponent<InputObject>().PlaySound();
-            /*
-             * if (levelManager.playerInputAllowed) {
-             *      levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);
-             *      GetComponent<InputObject>().Animate();
-             *      GetComponent<InputObject>().PlaySound();
-             * }
-             */
+            //GetComponent<InputObject>().PlaySound();
+            
+            if (levelManager.playerInputAllowed) 
+            {
+                   levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);
+                   GetComponent<InputObject>().Animate();
+                   GetComponent<InputObject>().PlaySound();
+            }
+             
         }
     }
 }

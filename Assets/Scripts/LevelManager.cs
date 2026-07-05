@@ -54,10 +54,11 @@ public class LevelManager : MonoBehaviour
             { 0, 1, 2, -1, 3, 4, 5, -1 },
             { 0, 1, 2, 3, 4, 5, 6, -1 },
             { 0, 1, 2, 3, 4, 5, 6, 7 }
-        }; 
-    
+        };
 
-    void Start()
+    private int currentPatternSize = 0;
+
+    void Awake()
     {
         playerInputList = new List<inputNames>();
         generatedList = new List<inputNames>();
@@ -100,20 +101,22 @@ public class LevelManager : MonoBehaviour
         //rough outline for making animations happen in a simon says Bar
         if (Bar % 2 == 0)
         {
-            //generating new list in a Simon Says BAR
-            int s = Random.Range(1, 8); // choosing a size at random
-            ReloadList(s); //generation
-            s--; //decrementing by 1, to use for indexing into patterns array
-            
-            if (patterns[s, Beat] != -1) //don't do the following if there wouldnt be anything to do
+            if (Beat == 0)
+            {
+                //generating new list in a Simon Says BAR
+                currentPatternSize = Random.Range(1, 9); // choosing a size at random
+                ReloadList(currentPatternSize); //generation
+                currentPatternSize--; //decrementing by 1, to use for indexing into patterns array
+            }
+            if (patterns[currentPatternSize, Beat] != -1) //don't do the following if there wouldnt be anything to do
             {
                 //do something with generatedList[patterns[s, Beat]]
                 foreach (GameObject g in inputObjects) //check each possible interactable gameobject
                 {
-                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[s, Beat]]) //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
+                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[currentPatternSize, Beat]]) //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
                     {
                         //animation
-                        Debug.Log(g.GetComponent<InputObject>().inputType);
+                        //Debug.Log(g.GetComponent<InputObject>().inputType);
                         g.GetComponent<InputObject>().Animate();
                         g.GetComponent<InputObject>().PlaySound();
                         break;
@@ -121,17 +124,19 @@ public class LevelManager : MonoBehaviour
                     }
                 }
             }
+        } else
+        {
+            if (Beat == 0) playerInputList.Clear();
         }
     }
 
     void ReloadList(int s)
     {
         generatedList.Clear();
-        Debug.Log(s);
 
         for (int i = 0; i < s; i++)
         {
-            generatedList.Add((inputNames)Random.Range(0, 7));
+            generatedList.Add((inputNames)Random.Range(0, 8));
         }
     }
 

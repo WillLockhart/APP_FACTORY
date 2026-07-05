@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b0342a2c30a747aa115b8e4aebe98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchToggle
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1178991755}
   ToggleObject: {fileID: 264452652}
 --- !u!58 &264452656
 CircleCollider2D:
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b0342a2c30a747aa115b8e4aebe98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchToggle
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1178991755}
   ToggleObject: {fileID: 508102430}
 --- !u!212 &508102436
 SpriteRenderer:
@@ -1829,7 +1829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b0342a2c30a747aa115b8e4aebe98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchToggle
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1178991755}
   ToggleObject: {fileID: 1372066217}
 --- !u!212 &1372066223
 SpriteRenderer:
@@ -2123,7 +2123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b0342a2c30a747aa115b8e4aebe98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchToggle
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1178991755}
   ToggleObject: {fileID: 1426218225}
 --- !u!212 &1426218231
 SpriteRenderer:
@@ -2417,7 +2417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f6b0342a2c30a747aa115b8e4aebe98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TouchToggle
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1178991755}
   ToggleObject: {fileID: 1447274622}
 --- !u!212 &1447274628
 SpriteRenderer:

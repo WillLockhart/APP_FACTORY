@@ -16,6 +16,7 @@ public class TouchDrag : MonoBehaviour
     [SerializeField] private float bounceSpeed = 10f;
     [SerializeField] private float bounceDamping = 0.5f;
 
+    public LevelManager levelManager;
     private Camera cam;
     private Vector3 startLocalPosition;
     private Vector3 offset;
@@ -166,15 +167,13 @@ public class TouchDrag : MonoBehaviour
         float moveDist = Vector3.Distance(startLocalPosition, transform.localPosition);
         if (moveDist > releaseThreshold)
         {
-            Debug.Log("dragged");
-            GetComponent<InputObject>().PlaySound();
+            if (levelManager.playerInputAllowed)
+            {
+                levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);
+                GetComponent<InputObject>().PlaySound();
+                Debug.Log("Drag");
+            }
         }
-        //if (levelManager.playerInputAllowed)
-        //{
-        //    levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);
-        //    GetComponent<InputObject>().Animate();
-        //    GetComponent<InputObject>().PlaySound();
-        //}
     }
 
     //In case object gets disabled

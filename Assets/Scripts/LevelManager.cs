@@ -6,7 +6,16 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    private List<inputNames> generatedList;
+    internal List<inputNames> playerInputList;
+
     private int beat;
+    private int Bar;
+    private int currentPatternSize = 0;
+
+    public bool playable = false;
+    public bool playerInputAllowed = false;
+    public List<GameObject> inputObjects;
 
     public int Beat 
     { 
@@ -17,10 +26,6 @@ public class LevelManager : MonoBehaviour
             beat = value % 8; 
         }
     }
-
-    private int Bar;
-
-    public bool playerInputAllowed = false;
 
     public enum inputNames
     {
@@ -35,14 +40,6 @@ public class LevelManager : MonoBehaviour
 
     }
 
-    private List<inputNames> generatedList;
-    internal List<inputNames> playerInputList;
-
-
-    public List<GameObject> inputObjects;
-
-    //[LEFT_EYE, MOUTH, RIGHT_EAR]
-
     //list of possible patterns. -1 represents a Beat that nothing needs doing on, 0-7 represent the one of the list that needs doing; the position of each number, 0-7, is the Beat the number is for
     private int[,] patterns = 
         {
@@ -56,8 +53,6 @@ public class LevelManager : MonoBehaviour
             { 0, 1, 2, 3, 4, 5, 6, 7 }
         };
 
-    private int currentPatternSize = 0;
-
     void Awake()
     {
         playerInputList = new List<inputNames>();
@@ -68,38 +63,48 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        //playerInputAllowed = Bar == 3;
-        //playerInputAllowed = Bar == 7;
-        //if (Bar > 7) 
-        playerInputAllowed = Bar % 2 == 1;
+        if (playable)
+        {
+            //playerInputAllowed = true;
+            playerInputAllowed = Bar % 2 == 1;
+        }
+        else
+        {
+            playerInputAllowed = false;
+        }
     }
 
-    //_,call,_,response,_,call,_,response....
+    // This function can be called by a button in the intro UI
+    public void StartGame()
+    {
+        playable = true;
+    }
 
-    // BeatUpdate is called once per beat (quavers, 1/8th notes)
+    // Can be called by another script or a UI button
+    public void StopGame () 
+    { 
+        playable = false; 
+    }
+
+    public void AddInput(inputNames thisInputName)
+    {
+        playerInputList.Add(thisInputName);
+        if (playerInputList.Count == generatedList.Count)
+        {
+            if(generatedList.SequenceEqual(playerInputList))
+            {
+                Debug.Log("FUCK YEAH!");
+            }
+        }
+    }
+
     public void BeatUpdate()
     {
         //Dont remove this it makes the whole thing work
         Beat++;
-        //Debug.Log(Beat);
+        //return;
 
-        //Modulo
-        //int modulo = 72 % 5; // returns 2
-        // % is the modulo operator: It gives the remainder after division.
-
-        //checking if 2 lists are equivalent (returns a bool)
-        //generatedList.SequenceEqual(playerInputList);
-
-        // Casting an int to the enum type
-        //inputNames n = (inputNames)0;
-        //inputNames r = (inputNames)Random.Range(0, 7);
-
-        //generates list
-        //generatedList.Clear() empties the list
-
-     
-        //rough outline for making animations happen in a simon says Bar
-        if (Bar % 2 == 0)
+        if (Bar % 2 == 0 && playable)
         {
             if (Beat == 0)
             {
@@ -113,7 +118,8 @@ public class LevelManager : MonoBehaviour
                 //do something with generatedList[patterns[s, Beat]]
                 foreach (GameObject g in inputObjects) //check each possible interactable gameobject
                 {
-                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[currentPatternSize, Beat]]) //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
+                    //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
+                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[currentPatternSize, Beat]]) 
                     {
                         //animation
                         //Debug.Log(g.GetComponent<InputObject>().inputType);

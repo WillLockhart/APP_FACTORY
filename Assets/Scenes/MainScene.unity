@@ -241,7 +241,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: e2b6a19dcf30cbc43a256658b069d5d7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.166
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -340,22 +340,6 @@ MonoBehaviour:
   bpm: 95
   audioSource: {fileID: 129389789}
   intervals:
-  - steps: 0.5
-    trigger:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1447274624}
-          m_TargetAssemblyTypeName: CirclePulse, Assembly-CSharp
-          m_MethodName: Pulse
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - steps: 2
     trigger:
       m_PersistentCalls:
@@ -565,7 +549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 0
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 264452661}
 --- !u!82 &264452661
 AudioSource:
@@ -869,7 +853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 2
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 508102438}
 --- !u!82 &508102438
 AudioSource:
@@ -1341,7 +1325,7 @@ MonoBehaviour:
   maxDragDistance: 1.4
   bounceBack: 1
   bounceSpeed: 400
-  bounceDamping: 20
+  bounceDamping: 25
   levelManager: {fileID: 1178991755}
 --- !u!212 &778575035
 SpriteRenderer:
@@ -1411,7 +1395,7 @@ Transform:
   m_GameObject: {fileID: 778575033}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.767, y: 1.061, z: 0}
+  m_LocalPosition: {x: -1.739, y: 1.061, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1430,7 +1414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 4
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 778575039}
 --- !u!82 &778575039
 AudioSource:
@@ -1601,7 +1585,7 @@ Transform:
   m_GameObject: {fileID: 865285936}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.023, y: -0.113, z: 0}
+  m_LocalPosition: {x: 0, y: -0.113, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1819,6 +1803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a57160c6d5f124499115a5189c95ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
+  playable: 1
   playerInputAllowed: 0
   inputObjects:
   - {fileID: 264452652}
@@ -1874,7 +1859,7 @@ Transform:
   m_GameObject: {fileID: 1208416238}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.718, y: 0.977, z: 0}
+  m_LocalPosition: {x: 1.739, y: 0.977, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1898,7 +1883,7 @@ MonoBehaviour:
   maxDragDistance: 1.4
   bounceBack: 1
   bounceSpeed: 400
-  bounceDamping: 15
+  bounceDamping: 25
   levelManager: {fileID: 1178991755}
 --- !u!212 &1208416242
 SpriteRenderer:
@@ -1972,7 +1957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 5
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 1208416244}
 --- !u!82 &1208416244
 AudioSource:
@@ -2276,7 +2261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 3
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 1372066225}
 --- !u!82 &1372066225
 AudioSource:
@@ -2587,7 +2572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 1
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 1426218233}
 --- !u!82 &1426218233
 AudioSource:
@@ -2927,7 +2912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 6
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 1447274630}
 --- !u!82 &1447274630
 AudioSource:
@@ -3483,7 +3468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 7
-  circleAnim: {fileID: 0}
+  animate: {fileID: 0}
   audioSource: {fileID: 1919549095}
 --- !u!82 &1919549095
 AudioSource:

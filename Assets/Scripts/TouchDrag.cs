@@ -40,7 +40,7 @@ public class TouchDrag : MonoBehaviour
 
     void Update()
     {
-        if (Touchscreen.current != null)
+        if (Touchscreen.current != null && levelManager.playerInputAllowed)
         {
             var touch = Touchscreen.current.primaryTouch;
             Vector2 screenPos = touch.position.ReadValue();
@@ -169,7 +169,7 @@ public class TouchDrag : MonoBehaviour
         {
             if (levelManager.playerInputAllowed)
             {
-                levelManager.playerInputList.Add(GetComponent<InputObject>().inputType);
+                levelManager.AddInput(GetComponent<InputObject>().inputType);
                 GetComponent<InputObject>().PlaySound();
                 Debug.Log("Drag");
             }

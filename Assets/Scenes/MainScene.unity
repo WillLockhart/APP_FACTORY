@@ -2073,7 +2073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a57160c6d5f124499115a5189c95ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
-  playable: 1
+  tutorial: 1
+  playable: 0
   playerInputAllowed: 0
   inputObjects:
   - {fileID: 264452652}

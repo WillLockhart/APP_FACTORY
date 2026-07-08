@@ -1,9 +1,6 @@
-using NUnit.Framework; 
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class LevelManager : MonoBehaviour
 {
@@ -13,9 +10,15 @@ public class LevelManager : MonoBehaviour
     private int beat;
     private int Bar;
     private int currentPatternSize = 0;
+    private int currentPatternIndex = 0;
+
+    public bool tutorial = false;
 
     public bool playable = false;
     public bool playerInputAllowed = false;
+
+    private bool increase = true;
+
     public List<GameObject> inputObjects;
     [SerializeField] private GameManager gameManager;
 
@@ -59,7 +62,7 @@ public class LevelManager : MonoBehaviour
     {
         playerInputList = new List<inputNames>();
         generatedList = new List<inputNames>();
-        Beat = 0;
+        Beat = 1;
         Bar = 0;
     }
 
@@ -67,8 +70,8 @@ public class LevelManager : MonoBehaviour
     {
         if (playable)
         {
-            playerInputAllowed = true;
-            //playerInputAllowed = Bar % 2 == 1;
+            //playerInputAllowed = true;
+            playerInputAllowed = Bar % 2 == 1;
         }
         else
         {
@@ -91,6 +94,21 @@ public class LevelManager : MonoBehaviour
     public void AddInput(inputNames thisInputName)
     {
         playerInputList.Add(thisInputName);
+        checkState(false);
+    }
+
+    private void checkState(bool final)
+    {
+        if (!final && generatedList.Count != 0)
+        {
+            int index = playerInputList.Count - 1;
+            if (playerInputList[index] != generatedList[index])
+            {
+                gameManager.livesCount--;
+                StopGame();
+                return;
+            }
+        }
         if (playerInputList.Count == generatedList.Count)
         {
             if (generatedList.SequenceEqual(playerInputList))
@@ -98,38 +116,44 @@ public class LevelManager : MonoBehaviour
                 int score = 1;
                 gameManager.AddPoints(score);
                 Debug.Log("FUCK YEAH!");
+                StopGame();
+            }
+            else
+            {
+                gameManager.livesCount--;
+                StopGame();
             }
         }
-        else
+        else if (final)
         {
             gameManager.livesCount--;
-            //StopGame();
         }
     }
 
     public void BeatUpdate()
     {
-        //Dont remove this it makes the whole thing work
-        Beat++;
-        //return;
-
-        if (Bar % 2 == 0 && playable)
+        if (Bar % 2 == 0 && !tutorial)
         {
             if (Beat == 0)
             {
+                if (playable) checkState(true);
+                StartGame();
                 //generating new list in a Simon Says BAR
                 //currentPatternSize = Random.Range(1, 9); // choosing a size at random
-                currentPatternSize = Random.Range(1, 5);
+                playerInputList.Clear();
+                currentPatternSize = 8;// currentPatternSize < 8 && increase ? currentPatternSize + 1 : currentPatternSize; 
+                //currentPatternSize = Random.Range(1, 5);
                 ReloadList(currentPatternSize); //generation
-                currentPatternSize--; //decrementing by 1, to use for indexing into patterns array
+                currentPatternIndex = currentPatternSize - 1; //storing correct index number, to use for indexing into patterns array
+                increase = !increase;
             }
-            if (patterns[currentPatternSize, Beat] != -1) //don't do the following if there wouldnt be anything to do
+            if (patterns[currentPatternIndex, Beat] != -1) //don't do the following if there wouldnt be anything to do
             {
                 //do something with generatedList[patterns[s, Beat]]
                 foreach (GameObject g in inputObjects) //check each possible interactable gameobject
                 {
                     //for the gameobject we are on, we check if it's name (from the enum) is the same as the name of the one we need to animate
-                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[currentPatternSize, Beat]]) 
+                    if (g.GetComponent<InputObject>().inputType == generatedList[patterns[currentPatternIndex, Beat]]) 
                     {
                         //animation
                         //Debug.Log(g.GetComponent<InputObject>().inputType);
@@ -140,10 +164,10 @@ public class LevelManager : MonoBehaviour
                     }
                 }
             }
-        } else
-        {
-            if (Beat == 0) playerInputList.Clear();
         }
+        //Dont remove this it makes the whole thing work
+        Beat++;
+        //return;
     }
 
     void ReloadList(int s)

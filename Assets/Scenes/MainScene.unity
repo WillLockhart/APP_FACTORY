@@ -1602,6 +1602,7 @@ GameObject:
   - component: {fileID: 778575035}
   - component: {fileID: 778575034}
   - component: {fileID: 778575038}
+  - component: {fileID: 778575041}
   - component: {fileID: 778575039}
   - component: {fileID: 778575040}
   m_Layer: 0
@@ -1718,7 +1719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputObject
   inputType: 4
-  animate: {fileID: 0}
+  animate: {fileID: 778575041}
   audioSource: {fileID: 778575039}
 --- !u!82 &778575039
 AudioSource:
@@ -1863,6 +1864,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.5536456, y: 2.9475718}
   m_EdgeRadius: 0
+--- !u!95 &778575041
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778575033}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9958407dfb77674897567ee6ea2f039, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &865285936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,7 +2674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.00074764, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 990.56, y: 505.8769}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1341712655

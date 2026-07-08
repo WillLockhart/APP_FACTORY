@@ -40,9 +40,6 @@ public class TouchToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
-            Debug.Log("Hit");
-            //GetComponent<InputObject>().PlaySound();
-
             if (levelManager.playerInputAllowed)
             {
                 levelManager.AddInput(GetComponent<InputObject>().inputType);

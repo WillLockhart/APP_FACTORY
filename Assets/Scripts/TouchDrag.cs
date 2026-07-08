@@ -171,7 +171,6 @@ public class TouchDrag : MonoBehaviour
             {
                 levelManager.AddInput(GetComponent<InputObject>().inputType);
                 GetComponent<InputObject>().PlaySound();
-                Debug.Log("Drag");
             }
         }
     }

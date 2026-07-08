@@ -1,0 +1,55 @@
+using TMPro;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+    [SerializeField] private GameObject livesCountDisplay;
+    public int livesCount;
+    [SerializeField] private TextMeshProUGUI livesCountText;
+
+    [SerializeField] private int score = 0;
+    [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private GameObject scoreTextRollingParent;
+    [SerializeField] private TextMeshProUGUI scoreTextRolling;
+
+    [SerializeField] private GameObject endScreen;
+
+    private bool isGameOver = false;
+
+    void Awake()
+    {
+        endScreen.SetActive(false);
+    }
+
+    void Update()
+    {
+        if (isGameOver == true)
+        {
+            return;
+        }
+
+        //livesCountText.text = "Remaining Lives: " + livesCount;
+        //scoreTextRolling.text = "Score: " + score;
+
+        if (livesCount <= 0)
+        {
+            Debug.Log("AWW FUCK :(");
+            isGameOver = true;
+            //EndGame();
+        }
+    }
+
+    public void AddPoints(int points)
+    {
+        score += points;
+    }
+
+    private void EndGame()
+    {
+        isGameOver = true;
+        endScreen.SetActive(true);
+        scoreText.text = "You scored " + score + "!";
+        livesCountDisplay.SetActive(false);
+        scoreTextRollingParent.SetActive(false);
+    }
+}

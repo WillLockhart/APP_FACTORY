@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class LevelManager : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class LevelManager : MonoBehaviour
     public bool playable = false;
     public bool playerInputAllowed = false;
     public List<GameObject> inputObjects;
+    [SerializeField] private GameManager gameManager;
 
     public int Beat 
     { 
@@ -65,8 +67,8 @@ public class LevelManager : MonoBehaviour
     {
         if (playable)
         {
-            //playerInputAllowed = true;
-            playerInputAllowed = Bar % 2 == 1;
+            playerInputAllowed = true;
+            //playerInputAllowed = Bar % 2 == 1;
         }
         else
         {
@@ -91,10 +93,17 @@ public class LevelManager : MonoBehaviour
         playerInputList.Add(thisInputName);
         if (playerInputList.Count == generatedList.Count)
         {
-            if(generatedList.SequenceEqual(playerInputList))
+            if (generatedList.SequenceEqual(playerInputList))
             {
+                int score = 1;
+                gameManager.AddPoints(score);
                 Debug.Log("FUCK YEAH!");
             }
+        }
+        else
+        {
+            gameManager.livesCount--;
+            //StopGame();
         }
     }
 
@@ -109,7 +118,8 @@ public class LevelManager : MonoBehaviour
             if (Beat == 0)
             {
                 //generating new list in a Simon Says BAR
-                currentPatternSize = Random.Range(1, 9); // choosing a size at random
+                //currentPatternSize = Random.Range(1, 9); // choosing a size at random
+                currentPatternSize = Random.Range(1, 5);
                 ReloadList(currentPatternSize); //generation
                 currentPatternSize--; //decrementing by 1, to use for indexing into patterns array
             }
@@ -142,7 +152,8 @@ public class LevelManager : MonoBehaviour
 
         for (int i = 0; i < s; i++)
         {
-            generatedList.Add((inputNames)Random.Range(0, 8));
+            //generatedList.Add((inputNames)Random.Range(0, 8));
+            generatedList.Add((inputNames)Random.Range(0, 4));
         }
     }
 

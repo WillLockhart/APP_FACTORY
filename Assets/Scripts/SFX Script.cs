@@ -10,6 +10,7 @@ public class SFXScript : MonoBehaviour
     [SerializeField] private List<AudioClip> correct;
     [SerializeField] private List<AudioClip> incorrect;
     [SerializeField] private List<AudioClip> shortIncorrect;
+    [SerializeField] private List<AudioClip> ruReady;
 
     public void MenuForward()
     {
@@ -31,6 +32,10 @@ public class SFXScript : MonoBehaviour
     public void ShortIncorrect()
     {
         playFromList(shortIncorrect);
+    }
+    public void RuReady()
+    {
+        playFromList(ruReady);
     }
 
     private void playFromList (List<AudioClip> list)

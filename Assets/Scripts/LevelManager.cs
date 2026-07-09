@@ -86,16 +86,19 @@ public class LevelManager : MonoBehaviour
         else { Background.SetActive(true); }
     }
 
-    // This function can be called by a button in the intro UI
     public void StartGame()
     {
         playable = true;
     }
 
-    // Can be called by another script or a UI button
     public void StopGame () 
     { 
         playable = false; 
+    }
+
+    public void Tutorial()
+    {
+        tutorial = false;
     }
 
     public void AddInput(inputNames thisInputName)

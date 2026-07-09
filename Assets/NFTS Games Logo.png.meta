@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 99e088e2e5d4978409bd46cbe638314e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6378386078587114852
+    second: NFTS Games Logo_0
+  - first:
+      213: -3398817797401307463
+    second: NFTS Games Logo_1
+  - first:
+      213: -6108374629118607816
+    second: NFTS Games Logo_2
+  - first:
+      213: 6506074684839664762
+    second: NFTS Games Logo_3
+  - first:
+      213: 5517212543608061115
+    second: NFTS Games Logo_4
+  - first:
+      213: 1105768933525198299
+    second: NFTS Games Logo_5
+  - first:
+      213: -387191356567290344
+    second: NFTS Games Logo_6
+  - first:
+      213: 1673599336102253612
+    second: NFTS Games Logo_7
+  - first:
+      213: 1382944860857344502
+    second: NFTS Games Logo_8
+  - first:
+      213: 1027384479974904442
+    second: NFTS Games Logo_9
+  - first:
+      213: 2853673835555077192
+    second: NFTS Games Logo_10
+  - first:
+      213: 6572453445511629008
+    second: NFTS Games Logo_11
+  - first:
+      213: -528954359548298778
+    second: NFTS Games Logo_12
+  - first:
+      213: -702000148778061388
+    second: NFTS Games Logo_13
+  - first:
+      213: -1424371405042032038
+    second: NFTS Games Logo_14
+  - first:
+      213: 5878300455291338213
+    second: NFTS Games Logo_15
+  - first:
+      213: 6505227528448967574
+    second: NFTS Games Logo_16
+  - first:
+      213: -4269291352226769397
+    second: NFTS Games Logo_17
+  - first:
+      213: -7966962383563252571
+    second: NFTS Games Logo_18
+  - first:
+      213: -7746699827543014909
+    second: NFTS Games Logo_19
+  - first:
+      213: -6812829842040379087
+    second: NFTS Games Logo_20
+  - first:
+      213: -424878345504842236
+    second: NFTS Games Logo_21
+  - first:
+      213: -3141016889490635305
+    second: NFTS Games Logo_22
+  - first:
+      213: -2616009993080854839
+    second: NFTS Games Logo_23
+  - first:
+      213: -6486024459593328103
+    second: NFTS Games Logo_24
+  - first:
+      213: 9162139929281480025
+    second: NFTS Games Logo_25
+  - first:
+      213: -4221181462060341647
+    second: NFTS Games Logo_26
+  - first:
+      213: 5769606603052818028
+    second: NFTS Games Logo_27
+  - first:
+      213: 6237047537140997233
+    second: NFTS Games Logo_28
+  - first:
+      213: 5433325357332444463
+    second: NFTS Games Logo_29
+  - first:
+      213: 4586490594867768684
+    second: NFTS Games Logo_30
+  - first:
+      213: -8263586698357996068
+    second: NFTS Games Logo_31
+  - first:
+      213: -2563544532064383495
+    second: NFTS Games Logo_32
+  - first:
+      213: -3792841511775737677
+    second: NFTS Games Logo_33
+  - first:
+      213: 4488024217104806633
+    second: NFTS Games Logo_34
+  - first:
+      213: -7145460992415433426
+    second: NFTS Games Logo_35
+  - first:
+      213: 1859911315133363184
+    second: NFTS Games Logo_36
+  - first:
+      213: -2937534504753399042
+    second: NFTS Games Logo_37
+  - first:
+      213: 8111013410898284545
+    second: NFTS Games Logo_38
+  - first:
+      213: 683587838664975082
+    second: NFTS Games Logo_39
+  - first:
+      213: 853446285614142529
+    second: NFTS Games Logo_40
+  - first:
+      213: -5320466513366425843
+    second: NFTS Games Logo_41
+  - first:
+      213: 2453434369378280720
+    second: NFTS Games Logo_42
+  - first:
+      213: 8808430988730529184
+    second: NFTS Games Logo_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NFTS Games Logo_0
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1469
+        width: 102
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4655b762854948850800000000000000
+      internalID: 6378386078587114852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1469
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b69e919839f4d0d0800000000000000
+      internalID: -3398817797401307463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1469
+        width: 95
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e706c63a1ba3ba0800000000000000
+      internalID: -6108374629118607816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_3
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1469
+        width: 32
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c970884783a4a50800000000000000
+      internalID: 6506074684839664762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1467
+        width: 115
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc7614b393119c40800000000000000
+      internalID: 5517212543608061115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_5
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1469
+        width: 102
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd59e668cfa785f00800000000000000
+      internalID: 1105768933525198299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_6
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1469
+        width: 119
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e74bb338b60aaf0800000000000000
+      internalID: -387191356567290344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_7
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1469
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2454b4aab1d93710800000000000000
+      internalID: 1673599336102253612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_8
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1469
+        width: 86
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1aa571605313310800000000000000
+      internalID: 1382944860857344502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_9
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1469
+        width: 32
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7257a0cdb0024e00800000000000000
+      internalID: 1027384479974904442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_10
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1469
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c3619eb394a9720800000000000000
+      internalID: 2853673835555077192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_11
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1469
+        width: 114
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8438a169b063b50800000000000000
+      internalID: 6572453445511629008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_12
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1467
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9bab000d6c8a8f0800000000000000
+      internalID: -528954359548298778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_13
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 1469
+        width: 94
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1ffc3859ef146f0800000000000000
+      internalID: -702000148778061388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_14
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 1469
+        width: 87
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52ee36f0cd9b3ce0800000000000000
+      internalID: -1424371405042032038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_15
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1469
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed38a89e1be39150800000000000000
+      internalID: 5878300455291338213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_16
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 1469
+        width: 87
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6930b4098f5374a50800000000000000
+      internalID: 6505227528448967574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_17
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 1469
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0650e3822e60c4c0800000000000000
+      internalID: -4269291352226769397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_18
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 1469
+        width: 32
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac10d44ce9af6190800000000000000
+      internalID: -7966962383563252571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_19
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 1467
+        width: 94
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30208b5fc813e7490800000000000000
+      internalID: -7746699827543014909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_20
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1469
+        width: 31
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139a006ca57f371a0800000000000000
+      internalID: -6812829842040379087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_21
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 1467
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e9d6755678a1af0800000000000000
+      internalID: -424878345504842236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_22
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 1469
+        width: 101
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d58864e7cdd864d0800000000000000
+      internalID: -3141016889490635305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_23
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 1467
+        width: 94
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c62b8185c012bbd0800000000000000
+      internalID: -2616009993080854839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_24
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 1467
+        width: 103
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ad1715e130df5a0800000000000000
+      internalID: -6486024459593328103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_25
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 1469
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955ce3bf8b5762f70800000000000000
+      internalID: 9162139929281480025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_26
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1467
+        width: 115
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176ed6533d95b65c0800000000000000
+      internalID: -4221181462060341647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_27
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 1467
+        width: 116
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e16b403a2c11050800000000000000
+      internalID: 5769606603052818028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_28
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 1469
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c938290b17e8650800000000000000
+      internalID: 6237047537140997233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_29
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1330
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f253ce020ac076b40800000000000000
+      internalID: 5433325357332444463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_30
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1384
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d63c055ec76af30800000000000000
+      internalID: 4586490594867768684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_31
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1330
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd58ab12ea7d15d80800000000000000
+      internalID: -8263586698357996068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_32
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1384
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd486094d57c6cd0800000000000000
+      internalID: -2563544532064383495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_33
+      rect:
+        serializedVersion: 2
+        x: 3005
+        y: 1330
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b860498dbe1d5bc0800000000000000
+      internalID: -3792841511775737677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_34
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 630
+        width: 594
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2f1e33f3aa84e30800000000000000
+      internalID: 4488024217104806633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_35
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 630
+        width: 595
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dfaaee51936dc90800000000000000
+      internalID: -7145460992415433426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_36
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 630
+        width: 594
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f044ac7bbfc910800000000000000
+      internalID: 1859911315133363184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_37
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 630
+        width: 487
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa78b08ee7cb37d0800000000000000
+      internalID: -2937534504753399042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_38
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 628
+        width: 595
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100950529bb109070800000000000000
+      internalID: 8111013410898284545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_39
+      rect:
+        serializedVersion: 2
+        x: 3437
+        y: 1166
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2276874879c7900800000000000000
+      internalID: 683587838664975082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_40
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 899
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14458e000ec08db00800000000000000
+      internalID: 853446285614142529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_41
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 532
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fde6725e7e926b0800000000000000
+      internalID: -5320466513366425843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_42
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 532
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015e6826f895c0220800000000000000
+      internalID: 2453434369378280720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NFTS Games Logo_43
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 532
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a573dfa055dd3a70800000000000000
+      internalID: 8808430988730529184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NFTS Games Logo_0: 6378386078587114852
+      NFTS Games Logo_1: -3398817797401307463
+      NFTS Games Logo_10: 2853673835555077192
+      NFTS Games Logo_11: 6572453445511629008
+      NFTS Games Logo_12: -528954359548298778
+      NFTS Games Logo_13: -702000148778061388
+      NFTS Games Logo_14: -1424371405042032038
+      NFTS Games Logo_15: 5878300455291338213
+      NFTS Games Logo_16: 6505227528448967574
+      NFTS Games Logo_17: -4269291352226769397
+      NFTS Games Logo_18: -7966962383563252571
+      NFTS Games Logo_19: -7746699827543014909
+      NFTS Games Logo_2: -6108374629118607816
+      NFTS Games Logo_20: -6812829842040379087
+      NFTS Games Logo_21: -424878345504842236
+      NFTS Games Logo_22: -3141016889490635305
+      NFTS Games Logo_23: -2616009993080854839
+      NFTS Games Logo_24: -6486024459593328103
+      NFTS Games Logo_25: 9162139929281480025
+      NFTS Games Logo_26: -4221181462060341647
+      NFTS Games Logo_27: 5769606603052818028
+      NFTS Games Logo_28: 6237047537140997233
+      NFTS Games Logo_29: 5433325357332444463
+      NFTS Games Logo_3: 6506074684839664762
+      NFTS Games Logo_30: 4586490594867768684
+      NFTS Games Logo_31: -8263586698357996068
+      NFTS Games Logo_32: -2563544532064383495
+      NFTS Games Logo_33: -3792841511775737677
+      NFTS Games Logo_34: 4488024217104806633
+      NFTS Games Logo_35: -7145460992415433426
+      NFTS Games Logo_36: 1859911315133363184
+      NFTS Games Logo_37: -2937534504753399042
+      NFTS Games Logo_38: 8111013410898284545
+      NFTS Games Logo_39: 683587838664975082
+      NFTS Games Logo_4: 5517212543608061115
+      NFTS Games Logo_40: 853446285614142529
+      NFTS Games Logo_41: -5320466513366425843
+      NFTS Games Logo_42: 2453434369378280720
+      NFTS Games Logo_43: 8808430988730529184
+      NFTS Games Logo_5: 1105768933525198299
+      NFTS Games Logo_6: -387191356567290344
+      NFTS Games Logo_7: 1673599336102253612
+      NFTS Games Logo_8: 1382944860857344502
+      NFTS Games Logo_9: 1027384479974904442
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

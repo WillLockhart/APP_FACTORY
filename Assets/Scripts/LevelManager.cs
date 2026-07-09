@@ -176,7 +176,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < s; i++)
         {
             //generatedList.Add((inputNames)Random.Range(0, 8));
-            generatedList.Add((inputNames)Random.Range(4, 5));
+            generatedList.Add((inputNames)Random.Range(0, 7));
         }
     }
 

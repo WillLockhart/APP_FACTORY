@@ -6,7 +6,6 @@ public class InputObject : MonoBehaviour
     [SerializeField] private Animator animate;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private bool usesTrigger = true;
-    //[SerializeField] private AudioClip[] clip;
 
     private void Awake()
     {

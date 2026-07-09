@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
 
     public List<GameObject> inputObjects;
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private SFXScript sfxManager;
     [SerializeField] private GameObject Background;
 
     public int Beat 
@@ -110,7 +111,9 @@ public class LevelManager : MonoBehaviour
             int index = playerInputList.Count - 1;
             if (playerInputList[index] != generatedList[index])
             {
+                sfxManager.Incorrect();
                 gameManager.livesCount--;
+                gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
                 StopGame();
                 return;
             }
@@ -121,18 +124,23 @@ public class LevelManager : MonoBehaviour
             {
                 int score = 1;
                 gameManager.AddPoints(score);
-                Debug.Log("FUCK YEAH!");
+                sfxManager.Correct();
                 StopGame();
             }
             else
             {
                 gameManager.livesCount--;
+                gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
+                sfxManager.Incorrect();
+                
                 StopGame();
             }
         }
         else if (final)
         {
+            sfxManager.ShortIncorrect();
             gameManager.livesCount--;
+            gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
         }
     }
 

@@ -4,7 +4,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private LevelManager levelManager;
-    [SerializeField] private GameObject livesCountDisplay;
     public int livesCount;
     [SerializeField] private TextMeshProUGUI livesCountText;
 
@@ -15,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private AudioSource lossClip;
     [SerializeField] private GameObject endScreen;
+    public GameObject livesCountParent;
 
     private bool isGameOver = false;
 
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        //livesCountText.text = "Remaining Lives: " + livesCount;
+        
         scoreTextRolling.text = "" + score;
 
         if (livesCount <= 0)
@@ -50,11 +50,11 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = true;
         endScreen.SetActive(true);
-        scoreText.text = "" + score + "!";
-        //livesCountDisplay.SetActive(false);
+        scoreText.text = "" + score;
+        livesCountParent.SetActive(false);
         scoreTextRollingParent.SetActive(false);
         levelManager.tutorial = true;
-        //levelManager.StopGame();
+        levelManager.StopGame();
         lossClip.Play();
     }
 }

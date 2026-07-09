@@ -21,6 +21,7 @@ public class LevelManager : MonoBehaviour
 
     public List<GameObject> inputObjects;
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private GameObject Background;
 
     public int Beat 
     { 
@@ -68,7 +69,7 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        if (playable)
+        if (playable && !tutorial)
         {
             //playerInputAllowed = true;
             playerInputAllowed = Bar % 2 == 1;
@@ -77,6 +78,11 @@ public class LevelManager : MonoBehaviour
         {
             playerInputAllowed = false;
         }
+        if (playerInputAllowed)
+        {
+            Background.SetActive(false);
+        }
+        else { Background.SetActive(true); }
     }
 
     // This function can be called by a button in the intro UI
@@ -176,7 +182,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < s; i++)
         {
             //generatedList.Add((inputNames)Random.Range(0, 8));
-            generatedList.Add((inputNames)Random.Range(0, 7));
+            generatedList.Add((inputNames)Random.Range(0, 8));
         }
     }
 

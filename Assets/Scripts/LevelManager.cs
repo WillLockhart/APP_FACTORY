@@ -139,9 +139,8 @@ public class LevelManager : MonoBehaviour
                 if (playable) checkState(true);
                 StartGame();
                 //generating new list in a Simon Says BAR
-                //currentPatternSize = Random.Range(1, 9); // choosing a size at random
                 playerInputList.Clear();
-                currentPatternSize = 8;// currentPatternSize < 8 && increase ? currentPatternSize + 1 : currentPatternSize; 
+                currentPatternSize = currentPatternSize < 8 && increase ? currentPatternSize + 1 : currentPatternSize; 
                 //currentPatternSize = Random.Range(1, 5);
                 ReloadList(currentPatternSize); //generation
                 currentPatternIndex = currentPatternSize - 1; //storing correct index number, to use for indexing into patterns array
@@ -177,7 +176,7 @@ public class LevelManager : MonoBehaviour
         for (int i = 0; i < s; i++)
         {
             //generatedList.Add((inputNames)Random.Range(0, 8));
-            generatedList.Add((inputNames)Random.Range(0, 4));
+            generatedList.Add((inputNames)Random.Range(4, 5));
         }
     }
 

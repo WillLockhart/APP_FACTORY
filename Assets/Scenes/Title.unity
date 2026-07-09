@@ -239,7 +239,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e2b6a19dcf30cbc43a256658b069d5d7, type: 3}
+  m_Resource: {fileID: 8300000, guid: 2c6e2218929d7be4abb6058f6450bf04, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.823
   m_Pitch: 1
@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54158e9670e353e48af1c0d8956f29c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeatManager
-  bpm: 95
+  bpm: 104
   audioSource: {fileID: 129389789}
   intervals:
   - steps: 0.5

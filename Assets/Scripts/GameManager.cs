@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private LevelManager levelManager;
     [SerializeField] private GameObject livesCountDisplay;
     public int livesCount;
     [SerializeField] private TextMeshProUGUI livesCountText;
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject scoreTextRollingParent;
     [SerializeField] private TextMeshProUGUI scoreTextRolling;
 
+    [SerializeField] private AudioSource lossClip;
     [SerializeField] private GameObject endScreen;
 
     private bool isGameOver = false;
@@ -29,13 +31,13 @@ public class GameManager : MonoBehaviour
         }
 
         //livesCountText.text = "Remaining Lives: " + livesCount;
-        //scoreTextRolling.text = "Score: " + score;
+        scoreTextRolling.text = "" + score;
 
         if (livesCount <= 0)
         {
             Debug.Log("AWW FUCK :(");
             isGameOver = true;
-            //EndGame();
+            EndGame();
         }
     }
 
@@ -48,8 +50,11 @@ public class GameManager : MonoBehaviour
     {
         isGameOver = true;
         endScreen.SetActive(true);
-        scoreText.text = "You scored " + score + "!";
-        livesCountDisplay.SetActive(false);
+        scoreText.text = "" + score + "!";
+        //livesCountDisplay.SetActive(false);
         scoreTextRollingParent.SetActive(false);
+        levelManager.tutorial = true;
+        //levelManager.StopGame();
+        lossClip.Play();
     }
 }

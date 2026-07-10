@@ -17,12 +17,12 @@ public class LevelManager : MonoBehaviour
     public bool playable = false;
     public bool playerInputAllowed = false;
 
-    private bool increase = true;
-
     public List<GameObject> inputObjects;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private SFXScript sfxManager;
     [SerializeField] private GameObject Background;
+
+    [SerializeField] private List<int> scoreThresholds;
 
     public int Beat 
     { 
@@ -114,9 +114,8 @@ public class LevelManager : MonoBehaviour
             int index = playerInputList.Count - 1;
             if (playerInputList[index] != generatedList[index])
             {
+                RegisterIncorrect();
                 sfxManager.Incorrect();
-                gameManager.livesCount--;
-                gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
                 StopGame();
                 return;
             }
@@ -132,8 +131,7 @@ public class LevelManager : MonoBehaviour
             }
             else
             {
-                gameManager.livesCount--;
-                gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
+                RegisterIncorrect();
                 sfxManager.Incorrect();
                 
                 StopGame();
@@ -141,10 +139,18 @@ public class LevelManager : MonoBehaviour
         }
         else if (final)
         {
+            RegisterIncorrect();
             sfxManager.ShortIncorrect();
-            gameManager.livesCount--;
-            gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
         }
+    }
+
+    private void RegisterIncorrect()
+    {
+        gameManager.livesCount--;
+        gameManager.livesCountParent.transform.GetChild(gameManager.livesCount).gameObject.SetActive(false);
+
+        //currentPatternSize--;
+        //currentPatternSize = Mathf.Max(1, currentPatternSize);
     }
 
     public void BeatUpdate()
@@ -157,11 +163,10 @@ public class LevelManager : MonoBehaviour
                 StartGame();
                 //generating new list in a Simon Says BAR
                 playerInputList.Clear();
-                currentPatternSize = currentPatternSize < 8 && increase ? currentPatternSize + 1 : currentPatternSize; 
+                currentPatternSize = GetPatternSize();
                 //currentPatternSize = Random.Range(1, 5);
                 ReloadList(currentPatternSize); //generation
                 currentPatternIndex = currentPatternSize - 1; //storing correct index number, to use for indexing into patterns array
-                increase = !increase;
             }
             if (patterns[currentPatternIndex, Beat] != -1) //don't do the following if there wouldnt be anything to do
             {
@@ -197,4 +202,20 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    private int GetPatternSize()
+    {
+        int score = gameManager.Score;
+
+        for (int i = 0; i < scoreThresholds.Count; i++)
+        {
+            int scoreThreshold = scoreThresholds[i];
+
+            if (score < scoreThreshold)
+            {
+                return i + 1;
+            }
+        }
+
+        return 8;
+    }
 }

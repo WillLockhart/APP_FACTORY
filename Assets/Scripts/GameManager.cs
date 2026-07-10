@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
 
     private bool isGameOver = false;
 
+    public int Score { get { return score; } }
+
     void Awake()
     {
         endScreen.SetActive(false);

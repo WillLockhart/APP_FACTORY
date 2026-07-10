@@ -3236,6 +3236,7 @@ MonoBehaviour:
   gameManager: {fileID: 1330691593}
   sfxManager: {fileID: 1772552343}
   Background: {fileID: 350731708}
+  scoreThresholds: 0200000004000000060000000c00000012000000180000001e000000
 --- !u!4 &1178991756
 Transform:
   m_ObjectHideFlags: 0
